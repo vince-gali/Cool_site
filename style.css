@@ -1,0 +1,125 @@
+.root{
+    --primary-bg: rgb(42, 42, 147);
+    --primary: red;
+    --primary-text: white;
+    --secondary: yellow;
+
+}
+
+body{
+    background-color: var(--primary-bg);
+    margin: 0;
+    color: var(--primary-text);
+    flex-direction: column;
+    font-size: 16px;
+    display: flex;
+    min-height: 100vh;
+    }
+
+    .body-text{
+        color: white;
+    }
+
+.align-items-center{
+    align-items: center;
+}
+
+.align-items-baseline{
+    align-items: baseline;
+}
+
+.right{
+    max-width: 50%;
+    margin-top: 5rem;
+}
+
+.left{
+    max-width: 50%;
+    margin-top: 5rem;
+}
+
+.logo{
+    margin: .5rem .75rem;
+}
+
+.highlight{
+    color: yellow;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;
+    color: white;
+}
+
+.footer{
+    color: black;
+}
+
+
+
+.mainBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(37, 37, 144);
+    color: var(--primary-text);
+
+}
+
+.dark{
+    background-color: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top: 1rem;
+}
+
+.lowerBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+
+
+.gap{
+    gap: 3rem;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+button{
+    border: blue;
+    font-weight: 300;
+    background: blue;
+}
+
+.fancy-button{
+    background-color: blue;
+    color: white;
+    padding: .75rem 1rem;
+    border-radius: 20px;
+}
+
+.world{
+    margin-left: 2rem;
+}
+
+.active-link{
+    color: var(--primary);
+    font-weight: bold;
+    text-decoration: underline;
+}
